@@ -18,8 +18,10 @@ function beepBoop(input) {
   
   
   $(document).ready(function() {
-    $("form#").submit(function(event) {
- 
+    $("form#translate1").submit(function(event) {
+      const num1 = parseInt($("#translate1").val())
+      const result = beepBoop(num1);
+      $("#output").text(result);
 
     event.preventDefault();
   });
