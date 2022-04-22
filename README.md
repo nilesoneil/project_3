@@ -33,12 +33,17 @@ Expected Output: [0,1,2,3,4,5,6,7]
 
 Test: "It will find all digits with 1 in them and replace it with "beep"
 Code: beepBoop(7)
-Expected Output: [0, "beep", 2, 3, 4, 5, 6, 7]
+Expected Output: [0,"beep", 2, 3, 4, 5, 6, 7]
 
-Test: "It will find all digits with 2 in them and replace it with "boop"
+Test: "It will find all digits with 2 in them and replace it with 'boop'"
 Code: beepBoop(2)
 Expected Output: [0,1,"boop"]
 
+Test: "It will find all digits with 3 in them and replace it with 'won't you be my neighbor?'"
+Code: beepBoop(3)
+Expected Output: [0,1,2,"won't you be my neighbor"]
+
+Test: "All changes will work
 
 
 ## Known Bugs
